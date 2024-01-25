@@ -1,0 +1,33 @@
+.input {
+    display: flex;
+    width: 550px;
+    height: 56px;
+    padding: 8px 180px 8px 40px;
+    align-items: center;
+    gap: 7px;
+    margin-left: 345px;
+    flex-shrink: 0;
+    color: var(--greyforplaceholders, #727875);
+    text-align: left;
+    font-family: "ProximaNova-Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline;
+    outline: none;
+    border: none;
+    border-left: 1px solid rgb(213, 204, 204);
+}
+
+input:focus::placeholder {
+    color: transparent;
+    opacity: 0;
+}
+
+.icons3 {
+    flex-shrink: 0;
+    margin-left: 345px;
+    width: 40px;
+    height: 24px;
+    position: absolute;
+    overflow: visible;
+}
