@@ -242,9 +242,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 1279px) {
-    display: none;
-  }
 }
 /* Тут панель категорий неправильно отображается, не могу поменять что бы они были слева и внутри них отступ должен быть до инпута в 412px. Это основной див нижнего хедера */
 .header-row-2 {
