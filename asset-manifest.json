@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/team-challenge-frontend/static/css/main.a210c9c7.css",
+    "main.css": "/team-challenge-frontend/static/css/main.21d21149.css",
     "main.js": "/team-challenge-frontend/static/js/main.430e1526.js",
     "static/media/Adelle_Semibold.otf": "/team-challenge-frontend/static/media/Adelle_Semibold.0feea4a2c6b7a9f8dac0.otf",
     "static/media/tinset.jpg": "/team-challenge-frontend/static/media/tinset.59bb915d12c71e5acdab.jpg",
@@ -10,11 +10,11 @@
     "static/media/HvDTrial_Brandon_Text_Medium-BF6514e9eb272a3.otf": "/team-challenge-frontend/static/media/HvDTrial_Brandon_Text_Medium-BF6514e9eb272a3.e5fa2f5dc253fae8afc2.otf",
     "static/media/sprite.svg": "/team-challenge-frontend/static/media/sprite.99f0faa820f933922c40c31533f6c859.svg",
     "index.html": "/team-challenge-frontend/index.html",
-    "main.a210c9c7.css.map": "/team-challenge-frontend/static/css/main.a210c9c7.css.map",
+    "main.21d21149.css.map": "/team-challenge-frontend/static/css/main.21d21149.css.map",
     "main.430e1526.js.map": "/team-challenge-frontend/static/js/main.430e1526.js.map"
   },
   "entrypoints": [
-    "static/css/main.a210c9c7.css",
+    "static/css/main.21d21149.css",
     "static/js/main.430e1526.js"
   ]
 }
