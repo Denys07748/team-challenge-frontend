@@ -110,17 +110,6 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  @media screen and (max-width: 1279px) {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    width: 48px;
-    height: 48px;
-    position: relative;
-  }
 }
 .icons {
   flex-shrink: 0;
@@ -147,9 +136,9 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     display: none;
-  }
+  } */
 }
 
 .account2:hover,
@@ -157,9 +146,9 @@
 .label:hover {
   background-color: rgb(218, 234, 227);
   border-radius: 10px;
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     display: none;
-  }
+  } */
 }
 
 .cart {
@@ -209,9 +198,9 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     display: none;
-  }
+  } */
 }
 
 .button {
@@ -222,7 +211,7 @@
   width: 190px;
   height: 50px;
   cursor: pointer;
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -233,7 +222,7 @@
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
-  }
+  } */
 }
 
 .label {
@@ -397,9 +386,9 @@
   align-items: center;
   gap: 7px;
   flex-shrink: 0;
-  @media screen and (max-width: 1279px) {
+  /* @media screen and (max-width: 1279px) {
     display: none;
-  }
+  } */
 }
 
 .icons3 {
@@ -416,4 +405,16 @@
   font-size: 14px;
   font-weight: 400;
   position: relative;
+}
+
+@media screen and (max-width: 1279px) {
+  .button,
+  .account2,
+  .cart2,
+  .search,
+  .account2:hover,
+  .cart2:hover,
+  .label:hover {
+    display: none;
+  }
 }
