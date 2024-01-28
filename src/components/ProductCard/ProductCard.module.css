@@ -65,7 +65,7 @@
   text-align: left;
   font-family: var(
     --titlemedium-font-family,
-    "HvDTrialBrandonText-Medium",
+    'HvDTrialBrandonText-Medium',
     sans-serif
   );
   font-size: var(--titlemedium-font-size, 20px);
@@ -79,7 +79,7 @@
   text-align: left;
   font-family: var(
     --bodymedium-font-family,
-    "HvDTrialBrandonText-Regular",
+    'HvDTrialBrandonText-Regular',
     sans-serif
   );
   font-size: var(--bodymedium-font-size, 16px);
@@ -115,13 +115,14 @@
   position: relative;
 }
 
-.icon {
+.starIcon {
   width: 24px;
   height: 24px;
   position: absolute;
   left: 0px;
   top: 0px;
   overflow: visible;
+  fill: #e5a800;
 }
 
 .votes {
@@ -129,7 +130,7 @@
   text-align: left;
   font-family: var(
     --bodymedium-font-family,
-    "HvDTrialBrandonText-Regular",
+    'HvDTrialBrandonText-Regular',
     sans-serif
   );
   font-size: var(--bodymedium-font-size, 16px);
@@ -138,10 +139,8 @@
   position: relative;
 }
 
-.favourIteIconWrap {
+.favouriteIconWrap {
   background: rgba(255, 255, 255, 0.7);
-  padding: 16px 12px 16px 12px;
-  border-radius: 100px;
   flex-shrink: 0;
   gap: 16px;
   align-items: center;
@@ -182,6 +181,7 @@
   height: 24px;
   position: relative;
   overflow: visible;
+  fill: #3b525b;
 }
 
 .bottomWrap {
@@ -197,7 +197,7 @@
 .price {
   color: var(--text-river-styx, #0c1012);
   text-align: left;
-  font-family: "Adelle-SemiBold", sans-serif;
+  font-family: 'Adelle-SemiBold', sans-serif;
   font-size: 24px;
   line-height: 130%;
   font-weight: 600;
@@ -208,7 +208,7 @@
 .priceSale {
   color: var(--saleandalert, #c22929);
   text-align: left;
-  font-family: var(--heading-4-font-family, "Adelle-SemiBold", sans-serif);
+  font-family: var(--heading-4-font-family, 'Adelle-SemiBold', sans-serif);
   font-size: var(--heading-4-font-size, 24px);
   line-height: var(--heading-4-line-height, 32px);
   font-weight: var(--heading-4-font-weight, 600);
@@ -217,7 +217,7 @@
 
 .button {
   background: var(--primary-midsummerdream, #3b525b);
-  border-radius: 100px;
+  border-radius: 50%;
   padding: 16px 12px 16px 12px;
   display: flex;
   flex-direction: row;
