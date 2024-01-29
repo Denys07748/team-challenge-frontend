@@ -192,8 +192,10 @@
   width: 40px;
   height: 40px;
   position: relative;
+}
 
-  @media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
+  .favouriteIconWrap {
     position: absolute;
     right: 0;
     top: -1px;
