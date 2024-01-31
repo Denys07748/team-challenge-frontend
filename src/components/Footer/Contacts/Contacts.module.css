@@ -1,3 +1,8 @@
+.contacts,
+.contacts * {
+  box-sizing: border-box;
+}
+
 .contacts {
   border-style: solid;
   border-color: var(--primary-pasteltahoesnow, #d8e2e6);

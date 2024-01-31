@@ -1,5 +1,9 @@
-.footer {
+.footer,
+.footer * {
   box-sizing: border-box;
+}
+
+.footer {
   background: #ffffff;
   border-style: solid;
   border-color: var(--background-pastelcallalilly, #e8eef0);

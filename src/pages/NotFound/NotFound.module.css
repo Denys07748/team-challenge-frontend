@@ -13,6 +13,7 @@
   flex-shrink: 0;
   position: relative;
   @media screen and (max-width: 1279px) {
+    padding: 24px 0 150px 0;
     gap: 16px;
   }
 }
@@ -28,13 +29,14 @@
   @media screen and (max-width: 1279px) {
     padding: 0 20px 0 20px;
     gap: 16px;
+    width: 412px;
   }
 }
 
 .title {
   color: var(--text-river-styx, #0c1012);
   text-align: center;
-  font-family: var(--h-2-font-family, "Adelle-SemiBold", sans-serif);
+  font-family: var(--h-2-font-family, 'Adelle-SemiBold', sans-serif);
   font-size: var(--h-2-font-size, 48px);
   line-height: var(--h-2-line-height, 64px);
   font-weight: var(--h-2-font-weight, 600);
@@ -51,7 +53,7 @@
   text-align: center;
   font-family: var(
     --titlemedium-font-family,
-    "HvDTrialBrandonText-Medium",
+    'HvDTrialBrandonText-Medium',
     sans-serif
   );
   font-size: var(--titlemedium-font-size, 20px);
@@ -59,6 +61,8 @@
   font-weight: var(--titlemedium-font-weight, 500);
   position: relative;
   @media screen and (max-width: 1279px) {
+    font-size: var(--titlesmall-font-size, 16px);
+    line-height: var(--titlesmall-line-height, 22px);
   }
 }
 
@@ -70,27 +74,43 @@
 ._404 {
   background-color: #fff;
   color: transparent;
-  background: url("images/rectangle-322.jpg") no-repeat 37% 57%;
+  background: url('images/rectangle-322.jpg') no-repeat 37% 57%;
   -webkit-background-clip: text;
   background-clip: text;
   text-align: center;
-  font-family: "HvDTrialBrandonText-Bold", sans-serif;
+  font-family: 'HvDTrialBrandonText-Bold', sans-serif;
   font-size: 500px;
   line-height: 520px;
   font-weight: 700;
+
   @media screen and (max-width: 1279px) {
-    font-size: 375px;
-    line-height: 390px;
+    background: url('images/rectangle-322-mob.jpg') no-repeat 37% 57%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 187px;
+    line-height: 194.5px;
   }
-  @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
     font-size: 225px;
     line-height: 234px;
   }
   @media screen and (max-width: 424px) {
     font-size: 157.5px;
     line-height: 163.8px;
-  }
+  } */
 }
+
+/* ._404 {
+  @media screen and (max-width: 1279px) {
+    background: url('images/rectangle-322-mob.jpg') no-repeat 37% 57%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    font-size: 187px;
+    line-height: 194.5px;
+  }
+} */
 
 .bottomWrap {
   display: flex;
@@ -100,10 +120,15 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+
+  @media screen and (max-width: 1279px) {
+    width: 412px;
+    padding: 0 20px;
+  }
 }
 
 .button {
-  background: var(--background-pastelcallalilly, #e8eef0);
+  background: #3b525b;
   border-radius: 4px;
   padding: 16px 48px 16px 48px;
   display: flex;
@@ -113,14 +138,18 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
+
+  @media screen and (max-width: 1279px) {
+    padding: 16px 37px 16px 37px;
+  }
 }
 
 .label {
-  color: var(--primary-midsummerdream, #3b525b);
+  color: var(--neutrals-8, #fcfcfd);
   text-align: center;
   font-family: var(
     --buttons-font-family,
-    "HvDTrialBrandonText-Bold",
+    'HvDTrialBrandonText-Bold',
     sans-serif
   );
   font-size: var(--buttons-font-size, 16px);

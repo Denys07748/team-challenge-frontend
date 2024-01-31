@@ -1,3 +1,8 @@
+.servicesAndHelpWrap,
+.servicesAndHelpWrap * {
+  box-sizing: border-box;
+}
+
 .servicesAndHelpWrap {
   padding: 32px 0px 32px 0px;
   gap: 80px;
@@ -39,7 +44,7 @@
 .title {
   color: var(--text-river-styx, #0c1012);
   text-align: left;
-  font-family: var(--heading-4-font-family, "Adelle-SemiBold", sans-serif);
+  font-family: var(--heading-4-font-family, 'Adelle-SemiBold', sans-serif);
   font-size: var(--heading-4-font-size, 24px);
   line-height: var(--heading-4-line-height, 32px);
   font-weight: var(--heading-4-font-weight, 600);
@@ -74,7 +79,7 @@
 .servisBtn {
   color: var(--text-river-styx, #0c1012);
   text-align: left;
-  font-family: "HvDTrialBrandonText-Regular", sans-serif;
+  font-family: 'HvDTrialBrandonText-Regular', sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
@@ -92,7 +97,7 @@
 }
 
 .servisBtn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
