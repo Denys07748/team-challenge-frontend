@@ -12,13 +12,15 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .servicesAndHelpWrap {
     width: 260px;
     height: 359px;
   }
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .servicesAndHelpWrap {
     border-style: solid;
     border-color: var(--primary-pasteltahoesnow, #d8e2e6);
     border-width: 1px 0px 0px 0px;
@@ -35,8 +37,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .servicesAndHelpBox {
     gap: 24px;
   }
 }
@@ -60,8 +63,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .servisList {
     gap: 8px;
   }
 }
