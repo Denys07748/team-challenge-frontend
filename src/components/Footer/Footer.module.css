@@ -18,8 +18,9 @@
   justify-content: flex-start;
   width: 1440px;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .footer {
     padding: 0px 20px 0px 20px;
     flex-direction: column;
     gap: 0px;
@@ -36,8 +37,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .mobGetInTouch {
     display: none;
   }
 }
@@ -83,8 +85,8 @@
   position: relative;
 }
 
-.feedbackBox {
-  @media screen and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
+  .feedbackBox {
     display: none;
   }
 }
@@ -92,7 +94,6 @@
 .info {
   width: 100%;
 }
-
 @media screen and (min-width: 1280px) {
   .info {
     display: flex;
@@ -131,8 +132,9 @@ button {
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .bottomBar {
     border-style: solid;
     border-color: var(--primary-pasteltahoesnow, #d8e2e6);
     border-width: 1px 0px 0px 0px;
