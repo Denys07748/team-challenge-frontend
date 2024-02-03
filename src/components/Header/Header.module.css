@@ -2,6 +2,7 @@
 .header-desktop * {
   box-sizing: border-box;
 }
+
 .header-desktop {
   background: #ffffff;
   padding: 16px 0px 16px 0px;
@@ -16,7 +17,9 @@
   padding: 16px 0px;
   flex-direction: column;
   align-items: flex-start;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .header-desktop {
     padding: 0px 20px 12px 20px;
     display: flex;
     width: 412px;
@@ -26,6 +29,7 @@
     position: relative;
   }
 }
+
 .header-row-1 {
   background: var(--neutrals-8, #fcfcfd);
   border-style: solid;
@@ -40,7 +44,9 @@
   width: 1440px;
   position: relative;
   overflow: hidden;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .header-row-1 {
     background: #ffffff;
     border-style: solid;
     border-color: var(--primary-pasteltahoesnow, #d8e2e6);
@@ -55,13 +61,16 @@
     width: 100%;
   }
 }
+
 .logo-header-desktop {
   flex-shrink: 0;
   width: 152px;
   height: 66px;
   position: relative;
   overflow: visible;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .logo-header-desktop {
     flex-shrink: 0;
     width: 105px;
     height: 45px;
@@ -69,6 +78,7 @@
     overflow: visible;
   }
 }
+
 .account-cart-and-button {
   display: flex;
   flex-direction: row;
@@ -82,7 +92,9 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .account-cart-and-button {
     flex-direction: row;
     align-items: center;
     gap: 16px;
@@ -111,6 +123,7 @@
   flex-shrink: 0;
   position: relative;
 }
+
 .icons {
   flex-shrink: 0;
   width: 24px;
@@ -118,10 +131,13 @@
   margin-right: 12px;
   position: relative;
   overflow: visible;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .icons {
     margin-right: 0;
   }
 }
+
 .account2 {
   color: var(--Text-River-Styx, #0c1012);
   font-family: HvDTrial Brandon Text;
@@ -153,7 +169,9 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .cart {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -165,15 +183,14 @@
     position: relative;
   }
 }
-.iconsMob {
-  margin: 0;
-  @media screen and (min-width: 1280px) {
-    display: none;
-  }
-}
+
+.iconsMob,
 .mobileInput {
   margin: 0;
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .iconsMob,
+  .mobileInput {
     display: none;
   }
 }
@@ -233,18 +250,15 @@
   flex-shrink: 0;
   width: 1440px;
   position: relative;
-  @media screen and (max-width: 1279px) {
-    display: flex;
+}
+@media screen and (max-width: 1279px) {
+  .header-row-2 {
     padding: 0;
     border-width: 0px 0px 0px 0px;
-    flex-direction: row;
     gap: 8px;
-    align-items: center;
     justify-content: flex-start;
     flex-wrap: wrap;
-    flex-shrink: 0;
     width: 372px;
-    position: relative;
   }
 }
 
@@ -253,22 +267,23 @@
   padding: 8px 0px 0px 0px;
   align-items: center;
   align-self: stretch;
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .menu-items {
     padding-top: 0;
     border-radius: 8px;
     border-style: solid;
     border-color: var(--primary-pasteltahoesnow, #d8e2e6);
     border-width: 1px;
-    display: flex;
     flex-direction: row;
     gap: 8px;
-    align-items: center;
     justify-content: center;
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
   }
 }
+
 .state-layer {
   padding: 8px 15.5px 8px 15.5px;
   display: flex;
@@ -300,18 +315,15 @@
   cursor: pointer;
   text-decoration: none;
   transition: transform 0.3s;
-  @media screen and (max-width: 1279px) {
-    color: var(--text-river-styx, #0c1012);
+}
+@media screen and (max-width: 1279px) {
+  .all-goods,
+  .living,
+  .dining,
+  .bedroom,
+  .sale,
+  .accessories {
     text-align: center;
-    font-family: var(
-      --titlesmall-font-family,
-      'HvDTrialBrandonText-Medium',
-      sans-serif
-    );
-    font-size: var(--titlesmall-font-size, 16px);
-    line-height: var(--titlesmall-line-height, 22px);
-    font-weight: var(--titlesmall-font-weight, 500);
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -371,6 +383,7 @@
   position: relative;
   overflow: visible;
 }
+
 ::placeholder {
   color: var(--greyforplaceholders, #727678);
   text-align: left;
