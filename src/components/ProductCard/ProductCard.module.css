@@ -14,8 +14,9 @@
   justify-content: flex-start;
   width: 324px;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .cardBox {
     width: 176px;
   }
 }
@@ -26,8 +27,9 @@
   height: 280px;
   position: relative;
   object-fit: cover;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .image {
     width: 176px;
     height: 160px;
   }
@@ -44,8 +46,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .cardInfo {
     padding: 4px 8px 16px 8px;
     gap: 12px;
   }
@@ -72,8 +75,9 @@
   width: 188px;
   height: 98px;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .leftWrap {
     padding: 6px 0px 0px 0px;
     width: 158px;
     height: auto;
@@ -117,8 +121,9 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .ratingWrap {
     gap: 4px;
   }
 }
@@ -131,8 +136,9 @@
   justify-content: center;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .stars {
     gap: 2px;
   }
 }
@@ -174,8 +180,9 @@
   line-height: var(--bodymedium-line-height, 22px);
   font-weight: var(--bodymedium-font-weight, 400);
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .votes {
     font-size: var(--bodysmall-font-size, 14px);
     line-height: var(--bodysmall-line-height, 20px);
   }
@@ -193,7 +200,6 @@
   height: 40px;
   position: relative;
 }
-
 @media screen and (max-width: 1279px) {
   .favouriteIconWrap {
     position: absolute;
@@ -224,8 +230,9 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .bottomWrap {
     width: 103px;
   }
 }
@@ -239,8 +246,10 @@
   line-height: var(--heading-4-line-height, 32px);
   font-weight: var(--heading-4-font-weight, 600);
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .priceSale,
+  .price {
     font-family: var(
       --titlesmall-font-family,
       'HvDTrialBrandonText-Medium',
@@ -269,8 +278,9 @@
   flex-shrink: 0;
   height: 48px;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .button {
     display: none;
   }
 }

@@ -8,8 +8,9 @@
   border-color: var(--primary-pasteltahoesnow, #d8e2e6);
   border-width: 1px 0px 0px 0px;
   padding: 24px 0px 24px 0px;
-
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .contacts {
     border: none;
     padding: 32px 0px 32px 0px;
     width: 300px;
@@ -26,13 +27,15 @@
   align-items: flex-start;
   justify-content: flex-start;
   position: relative;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .contactsBox {
     align-self: stretch;
     flex-shrink: 0;
   }
-
-  @media screen and (min-width: 1280px) {
+}
+@media screen and (min-width: 1280px) {
+  .contactsBox {
     gap: 24px;
     width: 280px;
     position: absolute;
@@ -78,12 +81,11 @@
   height: 24px;
   position: relative;
   overflow: visible;
-
-  @media screen and (max-width: 1279px) {
+}
+@media screen and (max-width: 1279px) {
+  .icon {
     width: 20px;
     height: 20px;
-    /* align-items: center;
-    justify-content: center; */
   }
 }
 
