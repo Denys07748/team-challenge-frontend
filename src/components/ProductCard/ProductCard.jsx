@@ -16,7 +16,7 @@ export const ProductCard = () => {
             <div className={s.ratingWrap}>
               <div className={s.stars}>
                 {stars.map(star => (
-                  <div className={s.star}>
+                  <div key={star} className={s.star}>
                     <Icon id="star" className={s.starIcon} />
                   </div>
                 ))}
