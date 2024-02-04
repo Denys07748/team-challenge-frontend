@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkteam_challenge_frontend=self.webpackChunkteam_challenge_frontend||[]).push([[360],{360:function(e,n,t){t.r(n);var a=t(184);n.default=function(){return(0,a.jsx)("div",{children:"Sale"})}}}]);
+//# sourceMappingURL=360.2e104d54.chunk.js.map
