@@ -1,4 +1,10 @@
 .container {
   margin: 0 auto;
   text-align: center;
+  width: 1440px;
+}
+@media screen and (max-width: 1279px) {
+  .container {
+    width: 412px;
+  }
 }

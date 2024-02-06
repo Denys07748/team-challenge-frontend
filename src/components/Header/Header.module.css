@@ -6,7 +6,6 @@
 .header-desktop {
   background: #ffffff;
   padding: 16px 0px 16px 0px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 0px;
