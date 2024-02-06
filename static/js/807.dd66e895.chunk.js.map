@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/807.dd66e895.chunk.js","mappings":"0JAIA,UAJe,WACX,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,UAChB,C","sources":["pages/Living.jsx"],"sourcesContent":["const Living = () => {\n    return <div>Living</div>;\n};\n\nexport default Living;\n"],"names":["_jsx","children"],"sourceRoot":""}
