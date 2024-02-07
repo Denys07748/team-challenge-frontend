@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkteam_challenge_frontend=self.webpackChunkteam_challenge_frontend||[]).push([[135],{5135:function(e,n,c){c.r(n);var t=c(184);n.default=function(){return(0,t.jsx)("div",{children:"Accessories Auto build check 3"})}}}]);
+//# sourceMappingURL=135.29b9c08e.chunk.js.map

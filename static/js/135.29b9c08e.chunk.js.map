@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/135.29b9c08e.chunk.js","mappings":"2JAIA,UAJoB,WAChB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,kCAChB,C","sources":["pages/Accessories.jsx"],"sourcesContent":["const Accessories = () => {\n    return <div>Accessories Auto build check 3</div>;\n};\n\nexport default Accessories;\n"],"names":["_jsx","children"],"sourceRoot":""}
