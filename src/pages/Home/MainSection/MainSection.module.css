@@ -1,0 +1,204 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .mainContainer {
+    overflow: hidden;
+  }
+  
+  .mainContainer,
+  .mainContainer * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .mainContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    width: 1440px;
+    height: 637px;
+    margin: 0 auto;
+    padding: 32px 80px 0 80px;
+    background: #ffffff;
+  }
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 32px;
+    position: relative;
+    width: 586px;
+    padding: 48px 0 0 0;
+  }
+  .textBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 20px;
+    position: relative;
+    min-width: 0;
+    z-index: 1;
+  }
+  .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    z-index: 2;
+  }
+  .elevateYourSpace {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    font-family: Mulish, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+    z-index: 3;
+  }
+  .elevateYourSpace1 {
+    position: relative;
+    color: #0c1012;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .empty {
+    position: relative;
+    color: #0c1012;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .style {
+    position: relative;
+    color: #336666;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .empty2 {
+    position: relative;
+    color: #0c1012;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .and {
+    position: relative;
+    color: #0c1012;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .style3 {
+    position: relative;
+    color: #336666;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 83.2px;
+    text-align: left;
+    letter-spacing: -1.28px;
+  }
+  .styleMeetsComfort {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 586px;
+    height: 48px;
+    color: #0c1012;
+    font-family: HvDTrial Brandon Text, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    z-index: 4;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 12px;
+    position: relative;
+    width: 164px;
+    padding: 16px 48px 16px 48px;
+    cursor: pointer;
+    background: #3b525b;
+    border: none;
+    z-index: 5;
+    border-radius: 4px;
+  }
+  .shopNow {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-basis: auto;
+    position: relative;
+    width: 68px;
+    height: 18px;
+    color: #ffffff;
+    font-family: HvDTrial Brandon Text, var(--default-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .rectangle {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 665px;
+    min-height: 0;
+    background: url("../../../images/Rectangle-18.jpg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 7;
+  }
+  

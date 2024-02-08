@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className={styles['header-desktop']}>
       <div className={styles['header-row-1']}>
-        <Link to="*">
+        <Link to="home">
           <Icon id={'logo'} className={styles['logo-header-desktop']} />
         </Link>
         <div className={styles['account-cart-and-button']}>
