@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/team-challenge-frontend/static/css/main.1ff6af21.css",
-    "main.js": "/team-challenge-frontend/static/js/main.d36ce83c.js",
+    "main.js": "/team-challenge-frontend/static/js/main.48b697a7.js",
     "static/css/851.2adbb2d4.chunk.css": "/team-challenge-frontend/static/css/851.2adbb2d4.chunk.css",
     "static/js/851.9c979597.chunk.js": "/team-challenge-frontend/static/js/851.9c979597.chunk.js",
     "static/css/310.cebd36f9.chunk.css": "/team-challenge-frontend/static/css/310.cebd36f9.chunk.css",
@@ -25,7 +25,7 @@
     "static/media/HvDTrial_Brandon_Text_Medium-BF6514e9eb272a3.otf": "/team-challenge-frontend/static/media/HvDTrial_Brandon_Text_Medium-BF6514e9eb272a3.e5fa2f5dc253fae8afc2.otf",
     "index.html": "/team-challenge-frontend/index.html",
     "main.1ff6af21.css.map": "/team-challenge-frontend/static/css/main.1ff6af21.css.map",
-    "main.d36ce83c.js.map": "/team-challenge-frontend/static/js/main.d36ce83c.js.map",
+    "main.48b697a7.js.map": "/team-challenge-frontend/static/js/main.48b697a7.js.map",
     "851.2adbb2d4.chunk.css.map": "/team-challenge-frontend/static/css/851.2adbb2d4.chunk.css.map",
     "851.9c979597.chunk.js.map": "/team-challenge-frontend/static/js/851.9c979597.chunk.js.map",
     "310.cebd36f9.chunk.css.map": "/team-challenge-frontend/static/css/310.cebd36f9.chunk.css.map",
@@ -41,6 +41,6 @@
   },
   "entrypoints": [
     "static/css/main.1ff6af21.css",
-    "static/js/main.d36ce83c.js"
+    "static/js/main.48b697a7.js"
   ]
 }
