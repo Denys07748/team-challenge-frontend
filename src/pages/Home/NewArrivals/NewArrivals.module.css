@@ -1,0 +1,56 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 24px;
+    position: relative;
+    width: 1440px;
+    height: 758px;
+    margin: 0 auto;
+    padding: 64px 0 64px 80px;
+    background: #ffffff;
+  }
+  .frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 32px;
+    position: relative;
+    min-width: 0;
+  }
+  .boughtTogether {
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    width: 1360px;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+    text-overflow: initial;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .new {
+    position: relative;
+    color: #0c1012;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+  }
+  .arrivals {
+    position: relative;
+    color: #336666;
+    font-family: Adelle, var(--default-font-family);
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+  }
