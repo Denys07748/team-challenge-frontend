@@ -138,8 +138,8 @@
 }
 
 .account2 {
-  color: var(--Text-River-Styx, #0c1012);
-  font-family: HvDTrial Brandon Text;
+  color: #0c1012;
+  font-family: HvDTrial Brandon Text, var(--default-font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -195,8 +195,8 @@
 }
 
 .cart2 {
-  color: var(--Text-River-Styx, #0c1012);
-  font-family: HvDTrial Brandon Text;
+  color: #0c1012;
+  font-family: HvDTrial Brandon Text, var(--default-font-family);
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
