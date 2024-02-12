@@ -1,15 +1,20 @@
 
 .splide__slide {
-    margin-right: 40px; /* Установите нужное значение для правого отступа между слайдами */
+    margin-right: 40px; 
   }
   
-  /* Если вам нужно установить отступы и для первого слайда, вы можете использовать :first-child */
+ 
   .splide__slide:first-child {
-    margin-left: 10px; /* Установите нужное значение для левого отступа первого слайда */
+    margin-left: 10px; 
   }
 
  
   .splide__pagination {
     
     padding-bottom: 530px ; 
+  }
+
+  .splide__pagination__page {
+    background: rgb(255, 166, 0) !important; /*????????? */
+    border-radius: 0% ;
   }

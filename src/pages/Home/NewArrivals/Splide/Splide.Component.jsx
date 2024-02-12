@@ -1,8 +1,8 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { ProductCard } from '../../../../components/Products/ProductCard/ProductCard';
-
-import '@splidejs/splide/dist/css/splide.min.css';
 import styles from './Splide.Component.module.css';
+import '@splidejs/react-splide/css/skyblue';
+
 
 function SplideComponent() {
   return (
@@ -13,6 +13,7 @@ function SplideComponent() {
         omitEnd: true,
         gap: -110,
         pagination: true,
+        arrows: true
       }}
     >
       <SplideSlide className={styles['splide__slide']}>
