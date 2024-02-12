@@ -35,10 +35,9 @@
   }
   @media screen and (max-width: 1279px) {
     .mainContainer {
-      display: flex;
+      
       flex-direction: column;
       align-items: center;
-      flex-wrap: nowrap;
       gap: 24px;
       position: absolute;
       width: 372px;
