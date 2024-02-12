@@ -78,6 +78,10 @@
   overflow: visible;
 }
 
+.rotate {
+  rotate: 180deg;
+}
+
 .filterCardsBox {
   padding: 0px 80px 0px 80px;
   display: flex;

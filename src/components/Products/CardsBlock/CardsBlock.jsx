@@ -12,18 +12,18 @@ export const CardsBlock = () => {
         <div className="sort">Sort</div>
         <div className={s.input}>
           <div className={s.inputText}>Price: High to low</div>
-          <Icon id="btn-up" className={s.icon} />
+          <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
         </div>
       </div>
       <div className={s.filterCardsBox}>
         <div className={s.filterBox}>
           <div className={s.filterItem}>
             <div className={s.filterLabel}>Price</div>
-            <Icon id="btn-up" className={s.icon} />
+            <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
           </div>
           <div className={s.filterItem}>
             <div className={s.filterLabel}>Colour</div>
-            <Icon id="btn-up" className={s.icon} />
+            <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
           </div>
         </div>
         <div className={s.cardsPaginationBox}>
@@ -34,10 +34,10 @@ export const CardsBlock = () => {
           </div>
           <div className={s.paginationBox}>
             <div className={s.btnDouble}>
-              <Icon id="double-right" className={s.icon} />
+              <Icon id="double-right" className={`${s.icon} ${s.rotate}`} />
             </div>
             <div className={s.btnSingle}>
-              <Icon id="right-b" className={s.icon} />
+              <Icon id="right-b" className={`${s.icon} ${s.rotate}`} />
             </div>
             <div className={s.paginationItem}>
               <div className={s.paginationLabel}>1 out of 7</div>
