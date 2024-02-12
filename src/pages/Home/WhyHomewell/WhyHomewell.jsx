@@ -25,13 +25,13 @@ import styles from "./WhyHomewell.module.css"
         </span>
       </div>
       <div className={styles.feature3}>
-      <Icon id={'comments-alt'} className={styles.icons3} />
+      <Icon id={'comments'} className={styles.icons3} />
         <span className={styles.tailoredCustomerSupport}>
           Tailored customer support
         </span>
       </div>
       <div className={styles.feature5}>
-      <Icon id={'happy face'} className={styles.icons4} />
+      <Icon id={'face'} className={styles.icons4} />
         <span className={styles.satisfactionguarantee}>Satisfaction guarantee</span>
       </div>
     </div>
