@@ -29,10 +29,50 @@
     position: relative;
     width: 1440px;
     margin: 0 auto;
-    padding: 0 80px 0 80px;
+    padding: 0 80px 0 79px;
     background: #ffffff;
     border: 1px solid #d8e2e6;
   }
+  @media screen and (max-width: 1279px) {
+    .mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 12px;
+  position: relative;
+  width: 412px;
+  margin: 0 auto;
+  padding: 0px 20px 32px 20px;
+  background: #ffffff;
+  border: none;
+  }
+}
+
+.frameMob1,
+.frameMob2 {
+  align-items: center;
+  background: #ffffff;
+  border-left: 1px solid #d8e2e6;
+  columns: 2;
+}
+
+@media screen and (max-width: 1279px) {
+  .frameMob1,
+  .frameMob2 {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    gap: 24px;
+    position: relative;
+    width: 376px;
+    z-index: 1;
+    border: none;
+    }
+  }
+
+
   .feature {
     display: flex;
     flex-direction: column;
@@ -42,10 +82,30 @@
     gap: 16px;
     position: relative;
     width: 176px;
-    padding: 24px 20px 24px 20px;
-    border-left: 1px solid #d8e2e6;
+    padding: 24px 2px 24px 20px;
     z-index: 2;
   }
+  @media screen and (max-width: 1279px) {
+    .feature{
+      border-left: none;
+    }
+  }
+
+  @media screen and (max-width: 1279px) {
+    .feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  width: 176px;
+  padding: 24px 20px 24px 20px;
+  z-index: 2;
+    }
+  }
+
   .icons1 {
     flex-shrink: 0;
     position: relative;
@@ -84,6 +144,12 @@
     border-left: 1px solid #d8e2e6;
     z-index: 2;
   }
+  @media screen and (max-width: 1279px) {
+    .feature1 {
+      border-left: none;
+      }
+    }
+
   .icons2 {
     flex-shrink: 0;
     position: relative;
@@ -109,6 +175,7 @@
     text-align: center;
     z-index: 7;
   }
+
   .feature3 {
     display: flex;
     flex-direction: column;
@@ -118,10 +185,16 @@
     gap: 16px;
     position: relative;
     width: 176px;
-    padding: 24px 20px 24px 20px;
-    border-left: 1px solid #d8e2e6;
+    padding: 24px 2px 24px 20px;
     z-index: 2;
   }
+
+  @media screen and (max-width: 1279px) {
+    .feature3 {
+      border-left: none;
+      }
+    } 
+
   .icons3 {
     flex-shrink: 0;
     position: relative;
@@ -147,6 +220,7 @@
     text-align: center;
     z-index: 10;
   }
+
   .feature5 {
     display: flex;
     flex-direction: column;
@@ -156,10 +230,17 @@
     gap: 16px;
     position: relative;
     width: 176px;
-    padding: 24px 20px 24px 20px;
+    padding: 24px 20px 24px 2px;
     border-left: 1px solid #d8e2e6;
     z-index: 2;
   }
+  
+  @media screen and (max-width: 1279px) {
+    .feature5 {
+      border-left: none;
+      }
+    } 
+
   .icons4 {
     flex-shrink: 0;
     position: relative;
@@ -194,6 +275,22 @@
     width: 626px;
     padding: 0 78px 0 0;
   }
+
+  @media screen and (max-width: 1279px) {
+    .frame {
+  flex-shrink: 0;
+  position: relative;
+  width: 255px;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+    }
+  }
+
   .whyChooseHomewell {
     flex-shrink: 0;
     position: relative;
@@ -216,6 +313,11 @@
     line-height: 64px;
     text-align: left;
   }
+  @media screen and (max-width: 1279px) {
+    .whyChoose {
+  font-size: 24px;
+    }}
+
   .empty {
     position: relative;
     color: #0c1012;
@@ -225,6 +327,7 @@
     line-height: 64px;
     text-align: left;
   }
+  
   .homewell {
     position: relative;
     color: #336666;
@@ -234,4 +337,9 @@
     line-height: 64px;
     text-align: left;
   }
-  
+  @media screen and (max-width: 1279px) {
+    .homewell {
+  font-size: 24px;
+  line-height: 32px;
+    }
+  }
