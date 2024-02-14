@@ -4,24 +4,15 @@
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
   }
-  
-  .mainContainer {
-    overflow: hidden;
-  }
-  
+
   .mainContainer,
   .mainContainer * {
     box-sizing: border-box;
   }
-  
-  input,
-  select,
-  textarea,
-  button {
-    outline: 0;
-  }
-  
-  .mainContainer {
+
+.mainContainer {
+    box-sizing: border-box;
+    overflow: hidden;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -35,17 +26,16 @@
   }
   @media screen and (max-width: 1279px) {
     .mainContainer {
-      
-      flex-direction: column;
-      align-items: center;
-      gap: 24px;
-      position: absolute;
-      width: 372px;
-      height: 154px;
-      top: 0;
-      left: 50%;
-      margin: 0 auto;
-      transform: translate(-50%, 0);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-left: 2px;
+    padding-top: 12px;
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 412px;
+    margin: 0 auto;
     }
   }
   
@@ -64,17 +54,22 @@
 .heroContent{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: nowrap;
   flex-shrink: 0;
-  gap: 12px;
-  position: relative;
+  gap: 24px;
+  position: absolute;
   width: 372px;
+  height: 154px;
+  top: 32px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
 }
   }
-  
+
   @media screen and (min-width: 1280px) {
-  .textBlock {
+.textBlock {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -86,10 +81,9 @@
     min-width: 0;
     z-index: 1;
   }
-}
+  }
 
-@media screen and (min-width: 1280px) {
-  .heading {
+.heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -100,19 +94,47 @@
     position: relative;
     z-index: 2;
   }
+  @media screen and (max-width: 1279px) {
+    .heading {
+       display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  width: 372px;
+  z-index: 2;
+    }
 }
+.elevateYourSpace {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  font-family: Mulish, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83.2px;
+  text-align: left;
+  letter-spacing: -1.28px;
+  z-index: 3;
+}
+@media screen and (max-width: 1279px) {
   .elevateYourSpace {
     align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    font-family: Mulish, var(--default-font-family);
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 83.2px;
-    text-align: left;
-    letter-spacing: -1.28px;
-    z-index: 3;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  z-index: 3;
   }
+}
+
+
   @media screen and (max-width: 1279px) { 
     .elevateYourSpace {
       align-self: stretch;
@@ -129,7 +151,7 @@
   }
   
 
-  .elevateYourSpace1 {
+.elevateYourSpace1 {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -152,7 +174,7 @@
     }
   }
   
-  .empty {
+.empty {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -165,16 +187,16 @@
   @media screen and (max-width: 1279px) { 
     .empty{
       position: relative;
-  color: #0c1012;
-  font-family: Adelle, var(--default-font-family);
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 40px;
-  text-align: center;
+      color: #0c1012;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: center;
     }
   }
 
-  .style {
+.style {
     position: relative;
     color: #336666;
     font-family: Adelle, var(--default-font-family);
@@ -184,9 +206,8 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-
   @media screen and (max-width: 1279px) { 
-.style{
+  .style{
   position: relative;
   color: #336666;
   font-family: Adelle, var(--default-font-family);
@@ -196,7 +217,8 @@
   text-align: center;
 }
   }
-  .empty2 {
+
+.empty2 {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -208,7 +230,7 @@
   }
 
   @media screen and (max-width: 1279px) { 
-.empty2{
+  .empty2{
   position: relative;
   color: #0c1012;
   font-family: Adelle, var(--default-font-family);
@@ -218,7 +240,8 @@
   text-align: center;
 }
   }
-  .and {
+
+.and {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -228,8 +251,7 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-
-  @media screen and (max-width: 1279px) { 
+@media screen and (max-width: 1279px) { 
     .and{
       position: relative;
   color: #0c1012;
@@ -240,7 +262,8 @@
   text-align: center;
     }
   }
-  .style3 {
+
+.style3 {
     position: relative;
     color: #336666;
     font-family: Adelle, var(--default-font-family);
@@ -262,7 +285,8 @@
   text-align: center;
 }
   }
-  .styleMeetsComfort {
+
+.styleMeetsComfort {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -285,7 +309,7 @@
       }
     }
   
-  .button {
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,7 +344,7 @@
     }
   }
   
-  .shopNow {
+.shopNow {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -360,7 +384,7 @@
   }
  
 
-  .rectangle {
+.rectangle {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
@@ -373,13 +397,14 @@
   }
   @media screen and (max-width: 1279px) {
     .rectangle {
-      position: relative;
-      width: 412px;
-      height: 488px;
-      margin: 0 auto;
-      background: url("../../../images/Rectangle-18.jpg")
-        no-repeat center;
-      background-size: cover;
+    position: relative;
+    width: 412px;
+    height: 488px;
+    margin: 0 auto;
+    background: url("../../../images/Rectangle-25.jpg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 0;
     }
   }
   

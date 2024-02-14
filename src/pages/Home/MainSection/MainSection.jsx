@@ -28,7 +28,7 @@ function MainSection() {
           <span className={styles.shopNow}>Shop now</span>
         </button>
       </div>
-      <div className={styles.rectangle} />
+        <div className={styles.rectangle} />
     </div>
   );
 }
