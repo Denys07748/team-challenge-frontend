@@ -29,12 +29,14 @@
     overflow: hidden;
     display: flex;
     align-items: center;
-    padding-left: 2px;
-    padding-top: 12px;
+    padding: 12px 0px 0px 1px;
+    /* padding-left: 2px;
+    padding-top: 12px; */
     flex-wrap: nowrap;
     gap: 10px;
     position: relative;
     width: 412px;
+    height: 488px;
     margin: 0 auto;
     }
   }
