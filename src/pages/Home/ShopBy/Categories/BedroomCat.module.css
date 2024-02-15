@@ -12,6 +12,23 @@
     border: 1px solid #d8e2e6;
     z-index: 6;
   }
+  @media screen and (max-width: 1279px) {
+.categoryCard3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 176px;
+  padding: 0 0 12px 0;
+  background: #ffffff;
+  border: 1px solid #d8e2e6;
+  z-index: 6;
+}
+  }
+
   .rectangle4 {
     flex-shrink: 0;
     position: relative;
@@ -22,6 +39,17 @@
     background-size: cover;
     z-index: 7;
   }
+  @media screen and (max-width: 1279px) {
+    .rectangle4 {
+  flex-shrink: 0;
+  position: relative;
+  width: 176px;
+  height: 132px;
+  background-size: cover;
+  z-index: 7;
+    }
+  }
+
   .diningBedroom {
     flex-shrink: 0;
     flex-basis: auto;
@@ -36,3 +64,19 @@
     white-space: nowrap;
     z-index: 8;
   }
+  @media screen and (max-width: 1279px) {
+      .diningBedroom {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 28px;
+  color: #0c1012;
+  font-family: HvDTrial Brandon Text, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 8;
+      }
+    }
