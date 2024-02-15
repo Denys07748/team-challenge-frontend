@@ -47,21 +47,31 @@
 @media screen and (max-width: 1279px) {
   .image {
     align-self: stretch;
-    width: auto;
+    width: 100%;
     height: 240px;
   }
 }
 
 .textBtnBox {
-  padding: 32px 0px 32px 0px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
-  width: 617px;
   position: relative;
+}
+@media screen and (min-width: 1280px) {
+  .textBtnBox {
+    padding: 32px 0px 32px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 617px;
+    position: relative;
+  }
 }
 
 .title {
@@ -83,6 +93,12 @@
   align-self: stretch;
   flex-shrink: 0;
   position: relative;
+}
+@media screen and (max-width: 1279px) {
+  .textWrap {
+    height: 264px;
+    overflow: hidden;
+  }
 }
 
 .text {
@@ -108,6 +124,7 @@
   gap: 12px;
   align-items: center;
   justify-content: center;
+  align-self: flex-end;
   flex-shrink: 0;
   position: relative;
 }
