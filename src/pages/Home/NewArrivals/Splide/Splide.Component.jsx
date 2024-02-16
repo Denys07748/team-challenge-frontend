@@ -1,44 +1,32 @@
-import { Splide, SplideSlide } from '@splidejs/react-splide';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { ProductCard } from '../../../../components/Products/ProductCard/ProductCard';
-import styles from './Splide.Component.module.css';
-import '@splidejs/react-splide/css/skyblue';
+// import styles from './Splide.Component.module.css';
+// import '@splidejs/react-splide/css/skyblue';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+import "./Splide.Component.module.css"
 
 
 function SplideComponent() {
   return (
-    <Splide
-      options={{
-        perPage: 4,
-        focus: 0,
-        omitEnd: true,
-        gap: -110,
-        pagination: true,
-        arrows: true
-      }}
+    <Swiper
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={1}
+      slidesPerView={4}
+      navigation
+      pagination={{ clickable: true }}
+      scrollbar={{ draggable: true }}
     >
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard className={styles.slider} />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <SplideSlide className={styles['splide__slide']}>
-        <ProductCard />
-      </SplideSlide>
-      <div className={styles['splide__pagination']}></div>
-    </Splide>
+      <SwiperSlide><ProductCard /></SwiperSlide>
+      <SwiperSlide><ProductCard /></SwiperSlide>
+      <SwiperSlide><ProductCard /></SwiperSlide>
+      <SwiperSlide><ProductCard /></SwiperSlide>
+      <SwiperSlide><ProductCard /></SwiperSlide>
+    </Swiper>
   );
 }
 
