@@ -14,13 +14,6 @@
     box-sizing: border-box;
   }
   
-  input,
-  select,
-  textarea,
-  button {
-    outline: 0;
-  }
-  
   .mainContainer {
     display: flex;
     flex-direction: column;
@@ -33,6 +26,21 @@
     padding: 64px 80px 64px 80px;
     background: #ffffff;
   }
+  @media screen and (max-width: 1279px) {
+    .mainContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 16px;
+      position: relative;
+      width: 412px;
+      margin: 0 auto;
+      padding: 32px 0 32px 0;
+      background: #ffffff;
+    }
+    }
+
   .frame {
     display: flex;
     align-items: flex-start;
@@ -42,6 +50,25 @@
     position: relative;
     width: 751px;
   }
+  @media screen and (max-width: 1279px) {
+    .frame {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 10px;
+      position: relative;
+      width: 412px;
+      padding: 0 20px 0 20px;
+    }
+    }
+
+    @media screen and (min-width: 1280px) {
+      .brMob {
+      display: none;
+      }
+    }
+
   .whatClientsSay {
     display: flex;
     align-items: flex-start;
@@ -60,6 +87,26 @@
     white-space: nowrap;
     z-index: 1;
   }
+  @media screen and (max-width: 1279px) {
+    .whatClientsSay {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+      width: 372px;
+      height: 80px;
+      color: #0c1012;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: center;
+      z-index: 1;
+      
+    }
+  }
+
   .frame1 {
     display: flex;
     align-items: center;
@@ -73,6 +120,21 @@
     border-left: 1px solid #d8e2e6;
     z-index: 2;
   }
+  @media screen and (max-width: 1279px) {
+    .frame1 {
+      display: flex;
+  align-items: center;
+  align-self: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 10px;
+  position: relative;
+  height: 224px;
+  padding: 0 0 0 16px;
+  border-left: 1px solid #b9c5ca;
+  z-index: 5;
+    }
+    }
   .homewellTestimonial {
     display: flex;
     align-items: flex-start;
