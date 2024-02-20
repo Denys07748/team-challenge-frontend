@@ -1,8 +1,9 @@
-
 import styles from "./NewArrivals.module.css"
 import SplideComponent from "./Splide/Splide.Component";
 
 function NewArrivals() {
+  
+
   return (
 
     <div className={styles.mainContainer}>
@@ -12,7 +13,7 @@ function NewArrivals() {
           <span className={styles.arrivals}>arrivals</span>
         </div>
       </div>
-      <SplideComponent />
+      <SplideComponent /> 
     </div>
   );
 }
