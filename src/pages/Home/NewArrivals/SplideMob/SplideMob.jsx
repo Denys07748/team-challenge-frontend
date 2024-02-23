@@ -1,36 +1,21 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import SwiperCore from "swiper"
-import { useState, useEffect } from "react"
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { ProductCard } from '../../../../components/Products/ProductCard/ProductCard';
-// import styles from './Splide.Component.module.css';
-// import '@splidejs/react-splide/css/skyblue';
+import SwiperCore from "swiper"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import "./Splide.css"
+import "./SplideMob.css"
+
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
-function SplideComponent() {
-  const [slidesPerView, setSlidesPerView] = useState(window.innerWidth > 1279 ? 4 : 2);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setSlidesPerView(window.innerWidth > 1279 ? 4 : 2);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
+function SplideMob() {
   return (
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={1}
-      slidesPerView={slidesPerView}
+      slidesPerView={2}
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
@@ -49,4 +34,4 @@ function SplideComponent() {
   );
 }
 
-export default SplideComponent;
+export default SplideMob;

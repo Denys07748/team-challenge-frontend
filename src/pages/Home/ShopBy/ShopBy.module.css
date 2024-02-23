@@ -33,6 +33,21 @@
     padding: 80px 80px 80px 80px;
     background: #f3f6f7;
   }
+  @media screen and (max-width: 1279px) {
+    .mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: relative;
+  width: 412px;
+  margin: 0 auto;
+  padding: 48px 20px 48px 20px;
+  background: #f3f6f7;
+    }
+  }
+
   .shopByCategories {
     flex-shrink: 0;
     position: relative;
@@ -45,6 +60,21 @@
     text-overflow: initial;
     white-space: nowrap;
   }
+  @media screen and (max-width: 1279px) {
+    .shopByCategories {
+      flex-shrink: 0;
+      position: relative;
+      width: 282px;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 64px;
+      text-align: left;
+      text-overflow: initial;
+      white-space: nowrap;
+    }
+  }
+
   .shopBy {
     position: relative;
     color: #0c1012;
@@ -54,6 +84,18 @@
     line-height: 64px;
     text-align: left;
   }
+  @media screen and (max-width: 1279px) {
+    .shopBy {
+  position: relative;
+  color: #0c1012;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+    }
+  }
+
   .categories {
     position: relative;
     color: #336666;
@@ -63,6 +105,18 @@
     line-height: 64px;
     text-align: left;
   }
+  @media screen and (max-width: 1279px) {
+    .categories {
+  position: relative;
+  color: #336666;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+    }
+  }
+  
   .frame1 {
     display: flex;
     align-items: flex-start;
@@ -73,6 +127,19 @@
     width: 1280px;
     z-index: 1;
   }
+  @media screen and (max-width: 1279px) {
+    .frame1 {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 20px;
+  position: relative;
+  width: 372px;
+  z-index: 1;
+    }
+  }
+
   .frame2 {
     display: flex;
     flex-direction: column;
@@ -84,7 +151,19 @@
     width: 624px;
     z-index: 2;
   }
-  
+  @media screen and (max-width: 1279px) {
+    .frame2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  width: 176px;
+  z-index: 2;
+    }
+  }
   
   .frame5 {
     display: flex;
@@ -97,6 +176,18 @@
     width: 624px;
     z-index: 9;
   }
-  
+  @media screen and (max-width: 1279px) {
+    .frame5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 16px;
+  position: relative;
+  width: 176px;
+  z-index: 9;
+    }
+  }
   
   

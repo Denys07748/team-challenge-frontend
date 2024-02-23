@@ -1,0 +1,53 @@
+.Swiper.swiper-pagination {
+  background-color: brown; /* Замените 'yourColor' на цвет вашего выбора */
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+  width: 40px;
+  padding: 8px 13px;
+  color: #3B525B ;
+  background-color: #F3F6F7 ;
+  border-radius: 100px;
+}
+@media screen and (max-width: 1279px) {
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  } 
+}
+
+:root {
+ --swiper-navigation-size: 20px
+}
+
+.swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+  display: none;
+}
+
+.swiper-pagination {
+  position: relative;
+  padding-top: 24px;
+}
+
+
+.swiper-pagination-bullet, .swiper-pagination-bullet-active {
+  background-color: #336666;
+}
+
+@media screen and (max-width: 1279px) {
+  .swiper {
+    width: 372px;
+  }
+}
+@media screen and (max-width: 1279px) {
+.swiper-wrapper {
+ height: 300px;
+ 
+}
+}

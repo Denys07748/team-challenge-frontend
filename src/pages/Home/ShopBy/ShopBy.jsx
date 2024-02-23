@@ -15,7 +15,7 @@ function ShopBy() {
         <div className={styles.frame1}>
           <div className={styles.frame2}>
             <Link to="living">
-            <LivingCat/>
+                <LivingCat/>
             </Link>
             <Link to="bedroom">
                 <BedroomCat />

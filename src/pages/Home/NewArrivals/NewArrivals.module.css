@@ -1,5 +1,5 @@
 .mainContainer {
-    display: flex;
+    display:block ;
     flex-direction: column;
     align-items: center;
     flex-wrap: nowrap;
@@ -11,6 +11,23 @@
     padding: 64px 0 64px 80px;
     background: #ffffff;
   }
+  @media screen and (max-width: 1279px) {
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  position: relative;
+  width: 412px;
+  height: 486px;
+  margin: 0 auto;
+  padding: 48px 0 48px 20px;
+  background: #ffffff;
+  overflow: hidden;
+}
+  }
+
   .frame {
     display: flex;
     flex-direction: column;
@@ -36,6 +53,23 @@
     white-space: nowrap;
     z-index: 1;
   }
+  @media screen and (max-width: 1279px) {
+    .boughtTogether{
+      align-self: stretch;
+      flex-shrink: 0;
+      position: relative;
+      width: 392px;
+      min-width: 0;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: left;
+      text-overflow: initial;
+      white-space: nowrap;
+    }
+    }
+    
   .new {
     position: relative;
     color: #0c1012;
@@ -45,6 +79,17 @@
     line-height: 64px;
     text-align: left;
   }
+  @media screen and (max-width: 1279px) {
+    .new{
+      position: relative;
+      color: #0c1012;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: left;
+    }
+    }
   .arrivals {
     position: relative;
     color: #336666;
@@ -54,3 +99,14 @@
     line-height: 40px;
     text-align: left;
   }
+  @media screen and (max-width: 1279px) {
+    .arrivals{
+      position: relative;
+  color: #336666;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+    }
+    }

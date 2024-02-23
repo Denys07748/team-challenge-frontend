@@ -4,24 +4,15 @@
       "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
       "Source Han Sans CN", sans-serif;
   }
-  
-  .mainContainer {
-    overflow: hidden;
-  }
-  
+
   .mainContainer,
   .mainContainer * {
     box-sizing: border-box;
   }
-  
-  input,
-  select,
-  textarea,
-  button {
-    outline: 0;
-  }
-  
-  .mainContainer {
+
+.mainContainer {
+    box-sizing: border-box;
+    overflow: hidden;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -33,7 +24,24 @@
     padding: 32px 70px 0 80px;
     background: #ffffff;
   }
-  .heroContent {
+  @media screen and (max-width: 1279px) {
+    .mainContainer {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding: 12px 0px 0px 1px;
+    /* padding-left: 2px;
+    padding-top: 12px; */
+    flex-wrap: nowrap;
+    gap: 10px;
+    position: relative;
+    width: 412px;
+    height: 488px;
+    margin: 0 auto;
+    }
+  }
+  
+.heroContent {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -44,7 +52,26 @@
     width: 586px;
     padding: 48px 0 0 0;
   }
-  .textBlock {
+  @media screen and (max-width: 1279px) {
+.heroContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 24px;
+  position: absolute;
+  width: 372px;
+  height: 154px;
+  top: 32px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+}
+  }
+
+  @media screen and (min-width: 1280px) {
+.textBlock {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -56,7 +83,9 @@
     min-width: 0;
     z-index: 1;
   }
-  .heading {
+  }
+
+.heading {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -67,19 +96,64 @@
     position: relative;
     z-index: 2;
   }
+  @media screen and (max-width: 1279px) {
+    .heading {
+       display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 12px;
+  position: relative;
+  width: 372px;
+  z-index: 2;
+    }
+}
+.elevateYourSpace {
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  font-family: Mulish, var(--default-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 83.2px;
+  text-align: left;
+  letter-spacing: -1.28px;
+  z-index: 3;
+}
+@media screen and (max-width: 1279px) {
   .elevateYourSpace {
     align-self: stretch;
-    flex-shrink: 0;
-    position: relative;
-    font-family: Mulish, var(--default-font-family);
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 83.2px;
-    text-align: left;
-    letter-spacing: -1.28px;
-    z-index: 3;
+  flex-shrink: 0;
+  position: relative;
+  min-width: 0;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  z-index: 3;
   }
-  .elevateYourSpace1 {
+}
+
+
+  @media screen and (max-width: 1279px) { 
+    .elevateYourSpace {
+      align-self: stretch;
+      flex-shrink: 0;
+      position: relative;
+      min-width: 0;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: center;
+      z-index: 1;
+    }
+  }
+  
+
+.elevateYourSpace1 {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -89,7 +163,20 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .empty {
+  @media screen and (max-width: 1279px) { 
+    .elevateYourSpace1{
+      position: relative;
+      color: #0c1012;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: center;
+    
+    }
+  }
+  
+.empty {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -99,7 +186,19 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .style {
+  @media screen and (max-width: 1279px) { 
+    .empty{
+      position: relative;
+      color: #0c1012;
+      font-family: Adelle, var(--default-font-family);
+      font-size: 32px;
+      font-weight: 600;
+      line-height: 40px;
+      text-align: center;
+    }
+  }
+
+.style {
     position: relative;
     color: #336666;
     font-family: Adelle, var(--default-font-family);
@@ -109,7 +208,19 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .empty2 {
+  @media screen and (max-width: 1279px) { 
+  .style{
+  position: relative;
+  color: #336666;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+  }
+
+.empty2 {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -119,7 +230,20 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .and {
+
+  @media screen and (max-width: 1279px) { 
+  .empty2{
+  position: relative;
+  color: #0c1012;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+  }
+
+.and {
     position: relative;
     color: #0c1012;
     font-family: Adelle, var(--default-font-family);
@@ -129,7 +253,19 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .style3 {
+@media screen and (max-width: 1279px) { 
+    .and{
+      position: relative;
+  color: #0c1012;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+    }
+  }
+
+.style3 {
     position: relative;
     color: #336666;
     font-family: Adelle, var(--default-font-family);
@@ -139,7 +275,20 @@
     text-align: left;
     letter-spacing: -1.28px;
   }
-  .styleMeetsComfort {
+
+  @media screen and (max-width: 1279px) { 
+.style3{
+  position: relative;
+  color: #336666;
+  font-family: Adelle, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+}
+  }
+
+.styleMeetsComfort {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -156,7 +305,13 @@
     text-align: left;
     z-index: 4;
   }
-  .button {
+  @media screen and (max-width: 1279px) {
+      .styleMeetsComfort {
+        display: none;
+      }
+    }
+  
+.button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +327,26 @@
     z-index: 5;
     border-radius: 4px;
   }
-  .shopNow {
+  @media screen and (max-width: 1279px) {
+    .button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 12px;
+      position: relative;
+      width: 164px;
+      padding: 16px 48px 16px 48px;
+      cursor: pointer;
+      background: #3b525b;
+      border: none;
+      z-index: 2;
+      border-radius: 4px;
+    }
+  }
+  
+.shopNow {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -190,7 +364,29 @@
     white-space: nowrap;
     z-index: 6;
   }
-  .rectangle {
+  @media screen and (max-width: 1279px) {
+    .shopNow{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-shrink: 0;
+      flex-basis: auto;
+      position: relative;
+      width: 68px;
+      height: 18px;
+      color: #ffffff;
+      font-family: HvDTrial Brandon Text, var(--default-font-family);
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 18px;
+      text-align: center;
+      white-space: nowrap;
+      z-index: 3;
+    }
+  }
+ 
+
+.rectangle {
     align-self: stretch;
     flex-shrink: 0;
     position: relative;
@@ -201,4 +397,17 @@
     background-size: cover;
     z-index: 7;
   }
+  @media screen and (max-width: 1279px) {
+    .rectangle {
+    position: relative;
+    width: 412px;
+    height: 488px;
+    margin: 0 auto;
+    background: url("../../../images/Rectangle-25.jpg")
+      no-repeat center;
+    background-size: cover;
+    z-index: 0;
+    }
+  }
+  
   
