@@ -2,6 +2,23 @@ import React from 'react';
 import styles from "./CustomerRevies.module.css"
 
  function CustomerRevies() {
+//   const dataComments = {
+//     person:{
+//         comment: "I love Homewell  vnvjnfqyu hefubfbevin",
+//         name: "Vlad C",
+//         photo: "../images/rectangle-21.jpg"
+//     },
+//     person2: {
+//         comment: "I love Homewell2 jfvnfjvbpqcmvfhvnbwydwmfef",
+//         name: "Vlad C2",
+//         photo: "../images/rectangle-21.jpg"
+//     },
+//     person3: {
+//         comment: "I love Homewell3 ahhdvidnvkdanvkadnvian jnfjvnjnvn nkvnkv",
+//         name: "Vlad C3",
+//         photo: "../images/rectangle-21.jpg"
+//     }
+// };
   return (
     <div className={styles.mainContainer}>
       <div className={styles.frame}>
@@ -26,9 +43,19 @@ import styles from "./CustomerRevies.module.css"
             </div>
           </div>
         </div>
-        {/* .map((el, i) => 
-            <div className={styles.ellipseNone}></div>
-        ) */}
+        {/* {dataComments.map((el, i) =>  
+        <div key={i}>
+            <div className={styles.ellipseNone}>
+              {el.comment}
+            </div>
+            <div>
+              {el.photo}
+            </div>
+            <div>
+              {el.name}
+            </div>
+        </div>
+        )} */}
       </div>
     </div>
   );
