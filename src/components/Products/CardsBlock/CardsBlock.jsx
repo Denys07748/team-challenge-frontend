@@ -8,8 +8,22 @@ export const CardsBlock = () => {
   return (
     // <!-- props: {"state":{"type":"VARIANT","defaultValue":"'default'","variantOptions":["Default","Filters applied"]},"page":{"type":"VARIANT","defaultValue":"'categories'","variantOptions":["All goods and sale","Categories"]},"type":{"type":"VARIANT","defaultValue":"'desktop'","variantOptions":["Mobile","Desktop","Mobil"]}} -->
     <section className={s.cardsSection}>
+      <div className={s.filterBtnBox}>
+        <button className={s.filterBtn}>
+          <span className={s.label}>Price</span>
+          <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
+        </button>
+        <button className={s.filterBtn}>
+          <span className={s.label}>Colour</span>
+          <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
+        </button>
+        <button className={`${s.filterBtn} ${s.sortBtn}`}>
+          <Icon id="sort" className={s.icon} />
+          <span className={s.label}>Sort</span>
+        </button>
+      </div>
       <div className={s.sorter}>
-        <div className="sort">Sort</div>
+        <div className={s.label}>Sort</div>
         <div className={s.input}>
           <div className={s.inputText}>Price: High to low</div>
           <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
@@ -18,11 +32,11 @@ export const CardsBlock = () => {
       <div className={s.filterCardsBox}>
         <div className={s.filterBox}>
           <div className={s.filterItem}>
-            <div className={s.filterLabel}>Price</div>
+            <div className={s.label}>Price</div>
             <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
           </div>
           <div className={s.filterItem}>
-            <div className={s.filterLabel}>Colour</div>
+            <div className={s.label}>Colour</div>
             <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
           </div>
         </div>
