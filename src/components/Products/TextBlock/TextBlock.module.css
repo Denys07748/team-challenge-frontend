@@ -135,11 +135,6 @@
   flex-shrink: 0;
   position: relative;
 }
-/* @media screen and (max-width: 1279px) {
-  .button {
-    align-self: center;
-  }
-} */
 
 .label {
   color: var(--accent-midsummer, #336666);
