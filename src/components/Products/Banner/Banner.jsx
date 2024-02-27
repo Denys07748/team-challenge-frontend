@@ -1,6 +1,6 @@
 import s from './Banner.module.css';
-import image21 from 'images/rectangle-21.jpg';
-import image22 from 'images/rectangle-22.jpg';
+import image21 from 'images/Rectangle-21.jpg';
+import image22 from 'images/Rectangle-22.jpg';
 
 export const Banner = () => {
   return (
