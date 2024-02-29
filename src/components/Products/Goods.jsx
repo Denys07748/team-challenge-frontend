@@ -3,10 +3,10 @@ import { CardsBlock } from './CardsBlock/CardsBlock';
 import { GoodsHero } from './GoodsHero/GoodsHero';
 import { TextBlock } from './TextBlock/TextBlock';
 
-export const Goods = () => {
+export const Goods = ({ title, img }) => {
   return (
     <div>
-      <GoodsHero />
+      <GoodsHero title={title} img={img} />
       <CardsBlock />
       <Banner />
       <TextBlock />
