@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/team-challenge-frontend/static/css/main.813e2f14.css",
-    "main.js": "/team-challenge-frontend/static/js/main.0217d35e.js",
+    "main.js": "/team-challenge-frontend/static/js/main.b5f76191.js",
     "static/css/834.2398494f.chunk.css": "/team-challenge-frontend/static/css/834.2398494f.chunk.css",
     "static/js/834.b459b9b1.chunk.js": "/team-challenge-frontend/static/js/834.b459b9b1.chunk.js",
     "static/css/385.5961681c.chunk.css": "/team-challenge-frontend/static/css/385.5961681c.chunk.css",
     "static/js/385.19a38309.chunk.js": "/team-challenge-frontend/static/js/385.19a38309.chunk.js",
     "static/js/135.29b9c08e.chunk.js": "/team-challenge-frontend/static/js/135.29b9c08e.chunk.js",
-    "static/js/473.e1aa9ff1.chunk.js": "/team-challenge-frontend/static/js/473.e1aa9ff1.chunk.js",
+    "static/js/717.3332ecc7.chunk.js": "/team-challenge-frontend/static/js/717.3332ecc7.chunk.js",
     "static/js/154.e4bce852.chunk.js": "/team-challenge-frontend/static/js/154.e4bce852.chunk.js",
-    "static/css/637.fb5415c8.chunk.css": "/team-challenge-frontend/static/css/637.fb5415c8.chunk.css",
-    "static/js/637.b9bbfc5b.chunk.js": "/team-challenge-frontend/static/js/637.b9bbfc5b.chunk.js",
+    "static/js/577.832e1bf4.chunk.js": "/team-challenge-frontend/static/js/577.832e1bf4.chunk.js",
     "static/js/360.fe7128b6.chunk.js": "/team-challenge-frontend/static/js/360.fe7128b6.chunk.js",
     "static/css/666.b1c5181b.chunk.css": "/team-challenge-frontend/static/css/666.b1c5181b.chunk.css",
     "static/js/666.018ccbc4.chunk.js": "/team-challenge-frontend/static/js/666.018ccbc4.chunk.js",
     "static/css/334.3ff28c50.chunk.css": "/team-challenge-frontend/static/css/334.3ff28c50.chunk.css",
+    "static/css/866.89bbde17.chunk.css": "/team-challenge-frontend/static/css/866.89bbde17.chunk.css",
     "static/media/Rectangle-18.jpg": "/team-challenge-frontend/static/media/Rectangle-18.050e319cbf19fe201a0c.jpg",
     "static/media/Rectangle-3.jpg": "/team-challenge-frontend/static/media/Rectangle-3.df934dce2e577962ef96.jpg",
     "static/media/Rectangle-4.jpg": "/team-challenge-frontend/static/media/Rectangle-4.18084708121c0cdc576c.jpg",
@@ -25,6 +25,7 @@
     "static/media/rectangle-23.jpg": "/team-challenge-frontend/static/media/rectangle-23.0e9f1900a44d8ea987f0.jpg",
     "static/media/tinset.jpg": "/team-challenge-frontend/static/media/tinset.59bb915d12c71e5acdab.jpg",
     "static/media/rectangle-tb.jpg": "/team-challenge-frontend/static/media/rectangle-tb.eb4f960e08ba859bdef9.jpg",
+    "static/media/rectangle-17.jpg": "/team-challenge-frontend/static/media/rectangle-17.1aa61cd2115ddef4eade.jpg",
     "static/media/sprite.svg": "/team-challenge-frontend/static/media/sprite.1b48bc944e7baa14f393c8047256a3c9.svg",
     "static/media/rectangle-322.jpg": "/team-challenge-frontend/static/media/rectangle-322.9405de096324392218a3.jpg",
     "static/media/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.otf": "/team-challenge-frontend/static/media/HvDTrial_Brandon_Text_Regular-BF6514e9eb617a0.817953e843393ec6973b.otf",
@@ -34,23 +35,23 @@
     "static/media/rectangle-21.jpg": "/team-challenge-frontend/static/media/rectangle-21.c462c8ef41d4f5600b81.jpg",
     "index.html": "/team-challenge-frontend/index.html",
     "main.813e2f14.css.map": "/team-challenge-frontend/static/css/main.813e2f14.css.map",
-    "main.0217d35e.js.map": "/team-challenge-frontend/static/js/main.0217d35e.js.map",
+    "main.b5f76191.js.map": "/team-challenge-frontend/static/js/main.b5f76191.js.map",
     "834.2398494f.chunk.css.map": "/team-challenge-frontend/static/css/834.2398494f.chunk.css.map",
     "834.b459b9b1.chunk.js.map": "/team-challenge-frontend/static/js/834.b459b9b1.chunk.js.map",
     "385.5961681c.chunk.css.map": "/team-challenge-frontend/static/css/385.5961681c.chunk.css.map",
     "385.19a38309.chunk.js.map": "/team-challenge-frontend/static/js/385.19a38309.chunk.js.map",
     "135.29b9c08e.chunk.js.map": "/team-challenge-frontend/static/js/135.29b9c08e.chunk.js.map",
-    "473.e1aa9ff1.chunk.js.map": "/team-challenge-frontend/static/js/473.e1aa9ff1.chunk.js.map",
+    "717.3332ecc7.chunk.js.map": "/team-challenge-frontend/static/js/717.3332ecc7.chunk.js.map",
     "154.e4bce852.chunk.js.map": "/team-challenge-frontend/static/js/154.e4bce852.chunk.js.map",
-    "637.fb5415c8.chunk.css.map": "/team-challenge-frontend/static/css/637.fb5415c8.chunk.css.map",
-    "637.b9bbfc5b.chunk.js.map": "/team-challenge-frontend/static/js/637.b9bbfc5b.chunk.js.map",
+    "577.832e1bf4.chunk.js.map": "/team-challenge-frontend/static/js/577.832e1bf4.chunk.js.map",
     "360.fe7128b6.chunk.js.map": "/team-challenge-frontend/static/js/360.fe7128b6.chunk.js.map",
     "666.b1c5181b.chunk.css.map": "/team-challenge-frontend/static/css/666.b1c5181b.chunk.css.map",
     "666.018ccbc4.chunk.js.map": "/team-challenge-frontend/static/js/666.018ccbc4.chunk.js.map",
-    "334.3ff28c50.chunk.css.map": "/team-challenge-frontend/static/css/334.3ff28c50.chunk.css.map"
+    "334.3ff28c50.chunk.css.map": "/team-challenge-frontend/static/css/334.3ff28c50.chunk.css.map",
+    "866.89bbde17.chunk.css.map": "/team-challenge-frontend/static/css/866.89bbde17.chunk.css.map"
   },
   "entrypoints": [
     "static/css/main.813e2f14.css",
-    "static/js/main.0217d35e.js"
+    "static/js/main.b5f76191.js"
   ]
 }
