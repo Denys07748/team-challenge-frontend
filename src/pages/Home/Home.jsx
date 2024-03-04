@@ -11,8 +11,8 @@ const Home = () => {
         <WhyHomewell />
         <ShopBy />
         <NewArrivals/>
-        <CustomerRevies/>
         <ShopNow />
+        <CustomerRevies/>
     </>;
 };
 

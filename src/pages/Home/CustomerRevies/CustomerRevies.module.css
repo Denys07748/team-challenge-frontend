@@ -30,16 +30,17 @@
     .mainContainer{
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       flex-wrap: nowrap;
-      gap: 16px;
+      gap: 24px;
       position: relative;
       width: 412px;
       margin: 0 auto;
-      padding: 32px 0 32px 0;
+      padding: 32px 0px 32px 0px;
       background: #ffffff;
-    }
-    }
+      overflow: hidden;
+   }
+}
 
   .frame {
     display: flex;
@@ -53,20 +54,16 @@
   @media screen and (max-width: 1279px) {
     .frame {
       display: flex;
-      align-items: flex-start;
+      align-items:flex-start;
       flex-wrap: nowrap;
       flex-shrink: 0;
       gap: 10px;
       position: relative;
       width: 412px;
       padding: 0 20px 0 20px;
-    }
-    }
+      background: #ffffff;
 
-    @media screen and (min-width: 1280px) {
-      .brMob {
-      display: none;
-      }
+    }
     }
 
   .whatClientsSay {
@@ -103,7 +100,13 @@
       line-height: 40px;
       text-align: center;
       z-index: 1;
-      
+      background: #ffffff;     
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .brMob {
+    display: none;
     }
   }
 
@@ -123,18 +126,20 @@
   @media screen and (max-width: 1279px) {
     .frame1 {
       display: flex;
-  align-items: center;
-  align-self: stretch;
-  flex-wrap: nowrap;
-  flex-shrink: 0;
-  gap: 10px;
-  position: relative;
-  height: 224px;
-  padding: 0 0 0 16px;
-  border-left: 1px solid #b9c5ca;
-  z-index: 5;
+      align-items: center;
+      align-self: stretch;
+      flex-wrap: nowrap;
+      flex-shrink: 0;
+      gap: 10px;
+      position: relative;
+      height: 170px;
+      padding: 8px 0 0 16px;
+      border-left: 1px solid #b9c5ca;
+      z-index: 5;
+      background: #ffffff;
     }
     }
+
   .homewellTestimonial {
     display: flex;
     align-items: flex-start;
@@ -151,6 +156,26 @@
     text-align: left;
     z-index: 3;
   }
+  @media screen and (max-width: 1279px) {
+    .homewellTestimonial {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      align-self: stretch;
+      flex-shrink: 0;
+      position: relative;
+      width: 356px;
+      height: 168px;
+      color: #0c1012;
+      font-family: HvDTrial Brandon Text, var(--default-font-family);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      z-index: 6;
+    }
+  }
+
   .frame2 {
     display: flex;
     align-items: center;
@@ -161,19 +186,41 @@
     width: 920px;
     z-index: 4;
   }
+  @media screen and (max-width: 1279px) {
+    .frame2 {
+      display:flex;
+      align-items: center;
+      text-align: center;
+      flex-wrap: nowrap;
+      flex-direction:column ;
+      flex-shrink: 0;
+      gap: 20px;
+      position: relative;
+      z-index: 2;
+      overflow: hidden;
+      padding-right: 250px;
+    }
+  }
   .frame3 {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     flex-wrap: nowrap;
-    flex-shrink: 0;
-    gap: 16px;
+    gap: 80px;
     position: relative;
-    width: 120px;
-    z-index: 5;
+    width: 920px;
+    margin: 0 auto;
   }
-  
+  @media screen and (max-width: 1279px) {
+    .frame3 {
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      gap: 200px;
+      position: relative;
+      width: 380px;
+      margin: 0 auto;
+    }
+  }
   .frame4 {
     display: flex;
     flex-direction: column;
@@ -188,6 +235,8 @@
   .frame5 {
     display: flex;
     align-items: flex-start;
+    margin-left: 30px;
+    margin-top: 16px;
     flex-wrap: nowrap;
     flex-shrink: 0;
     gap: 4px;
@@ -215,23 +264,23 @@
     position: relative;
     width: 120px;
     height: 120px;
-    /* background: url(../assets/images/1eab61e1-9023-41cf-a987-084e9d75ba2a.png)
-      no-repeat center; */
     background-size: cover;
     z-index: 6;
     border-radius: 50%;
   }
 
-  /* .ellipseNone {
+  .ellipseNone {
     flex-shrink: 0;
     position: relative;
     width: 80px;
     height: 80px;
-    background: url(../assets/images/fc6ef620-1153-4c9d-879b-590384c701f3.png)
-      no-repeat center;
     background-size: cover;
     z-index: 10;
     border-radius: 50%;
+    opacity: 0.5;
   }
-  */
+ 
+  .nameNone {
+    display: none;
+  }
   

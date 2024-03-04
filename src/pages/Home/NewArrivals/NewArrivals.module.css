@@ -8,7 +8,7 @@
     width: 1440px;
     height: 758px;
     margin: 0 auto;
-    padding: 64px 0 64px 80px;
+    padding: 64px 0 0px 80px;
     background: #ffffff;
   }
   @media screen and (max-width: 1279px) {

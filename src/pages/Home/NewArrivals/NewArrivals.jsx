@@ -13,7 +13,7 @@ function NewArrivals() {
           <span className={styles.arrivals}>arrivals</span>
         </div>
       </div>
-      <SplideComponent /> 
+      <SplideComponent />
     </div>
   );
 }
