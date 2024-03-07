@@ -1,10 +1,9 @@
-import { ProductCard } from 'components/Products/ProductCard/ProductCard';
+import { Goods } from 'components/Products/Goods';
 
 const AllGoods = () => {
   return (
     <div>
-      AllGoods
-      <ProductCard />
+      <Goods />
     </div>
   );
 };
