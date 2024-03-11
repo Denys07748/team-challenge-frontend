@@ -43,7 +43,7 @@ const CustomerSplider = ({handlePhotoClickMob, activeUser}) => {
                     <SwiperSlide key={person.id}>
                         <img 
                             src={person.photo} 
-                            alt={`Photo ${person.id}`} 
+                            alt={person.id}
                             className="ellipse" 
                             onClick={() => handlePhotoClickMob(person.id)}
                         />
