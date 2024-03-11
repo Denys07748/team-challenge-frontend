@@ -1,13 +1,13 @@
 import { Pagination, Scrollbar, A11y } from 'swiper/modules';
-import SwiperCore from "swiper"
+import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import "./CustomerSplider.css";
-import img11 from "../../../../images/Rectangle-18.jpg"
-import img12 from "../../../../images/Rectangle-21.jpg"
-import img13 from "../../../../images/Rectangle-4.jpg"
+import './CustomerSplider.css';
+import img11 from '../../../../images/Rectangle-18.jpg';
+import img12 from '../../../../images/rectangle-21.jpg';
+import img13 from '../../../../images/Rectangle-4.jpg';
 
 SwiperCore.use([ Pagination, Scrollbar, A11y]);
 const CustomerSplider = ({handlePhotoClickMob, activeUser}) => {
