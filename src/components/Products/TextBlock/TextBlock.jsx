@@ -18,7 +18,7 @@ export const TextBlock = ({ text, img }) => {
       <div className={s.textBlockWrap}>
         <img className={s.image} src={img} alt="room" />
         <div className={s.textBtnBox}>
-          <h3 className={s.title}>How to choose furniture for living room?</h3>
+          <h3 className={s.title}>{text.title}</h3>
           <div className={s.textWrap}>
             <div className={s.textWrap}>
               {text.less.map((p, i) => (
