@@ -1,35 +1,53 @@
 import { Icon } from 'components/Icons/Icon';
 import s from './TextBlock.module.css';
-import image from 'images/rectangle-tb.jpg';
+import { useState } from 'react';
 
-export const TextBlock = () => {
+export const TextBlock = ({ text, img }) => {
+  const [showMore, setShowMore] = useState(false);
+
+  const onShowMore = () => {
+    setShowMore(true);
+  };
+
+  const onCloseMore = () => {
+    setShowMore(false);
+  };
+
   return (
     <section className={s.textBlockSection}>
       <div className={s.textBlockWrap}>
-        <img className={s.image} src={image} alt="room" />
+        <img className={s.image} src={img} alt="room" />
         <div className={s.textBtnBox}>
-          <h3 className={s.title}>How to choose furniture for living room?</h3>
+          <h3 className={s.title}>{text.title}</h3>
           <div className={s.textWrap}>
-            <p className={s.text}>
-              Consider a comfortable and stylish sofa set as the focal point.
-              Options like sectional sofas or a classNameic three-seater with
-              coordinating chairs can work well.
-            </p>
-            <p className={s.text}>
-              Choose a coffee table that complements the style of your seating.
-              This could be a sleek, modern table or a rustic wooden piece,
-              depending on your preferences.
-            </p>
-            <p className={s.text}>
-              Incorporate bookshelves or display cabinets to showcase books,
-              decor, or personal items. This adds character and functionality to
-              the space.
-            </p>
+            <div className={s.textWrap}>
+              {text.less.map((p, i) => (
+                <p className={s.text} key={i}>
+                  {p}
+                </p>
+              ))}
+            </div>
+            {showMore && (
+              <div className={s.textWrap}>
+                {text.more.map((p, i) => (
+                  <p className={s.text} key={i}>
+                    {p}
+                  </p>
+                ))}
+              </div>
+            )}
           </div>
-          <button className={s.button}>
-            <div className={s.label}>Show more</div>
-            <Icon id="btn-up" className={s.icon} />
-          </button>
+          {showMore ? (
+            <button className={s.button} onClick={onCloseMore}>
+              <div className={s.label}>Show less</div>
+              <Icon id="btn-up" className={s.icon} />
+            </button>
+          ) : (
+            <button className={s.button} onClick={onShowMore}>
+              <div className={s.label}>Show more</div>
+              <Icon id="btn-up" className={`${s.icon} ${s.rotate}`} />
+            </button>
+          )}
         </div>
       </div>
     </section>
