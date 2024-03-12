@@ -1,10 +1,10 @@
 import { Goods } from 'components/Products/Goods';
-import saleImg from 'images/rectangle-15.jpg';
+import heroImg from 'images/rectangle-15.jpg';
 
 const Sale = () => {
   return (
     <div>
-      <Goods title="Sale" img={saleImg} />
+      <Goods title="Sale" heroImg={heroImg} />
     </div>
   );
 };

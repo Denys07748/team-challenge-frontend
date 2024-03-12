@@ -8,8 +8,10 @@ export const Goods = ({ title, heroImg, text, textImg }) => {
     <div>
       <GoodsHero title={title} img={heroImg} />
       <CardsBlock />
-      <Banner />
-      <TextBlock text={text} img={textImg} />
+      {title !== 'Sale' && <Banner />}
+      {title !== 'All goods' && title !== 'Sale' && (
+        <TextBlock text={text} img={textImg} />
+      )}
     </div>
   );
 };
