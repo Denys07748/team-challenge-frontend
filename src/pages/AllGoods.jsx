@@ -3,7 +3,7 @@ import { Goods } from 'components/Products/Goods';
 const AllGoods = () => {
   return (
     <div>
-      <Goods />
+      <Goods title="All goods" />
     </div>
   );
 };
