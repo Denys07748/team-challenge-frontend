@@ -5,7 +5,7 @@ import textImg from 'images/rectangle-tb.jpg';
 const text = {
   title: 'How to choose furniture for living room?',
   less: [
-    'Consider a comfortable and stylish sofa set as the focal point. Options like sectional sofas or a classNameic three-seater with coordinating chairs can work well.',
+    'Consider a comfortable and stylish sofa set as the focal point. Options like sectional sofas or a classic three-seater with coordinating chairs can work well.',
     'Choose a coffee table that complements the style of your seating. This could be a sleek, modern table or a rustic wooden piece, depending on your preferences.',
     'Incorporate bookshelves or display cabinets to showcase books, decor, or personal items. This adds character and functionality to the space.',
   ],

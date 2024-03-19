@@ -7,7 +7,7 @@ const text = {
   less: [
     'Identify the essential functions you need in your bathroom accessories. Items like towel racks, soap dispensers, and toothbrush holders should not only look good but also serve their purpose effectively.',
     'Consider a specific theme or motif for your bathroom accessories. This could be based on a color scheme, pattern, or a specific design element. Consistency in theme creates visual harmony.',
-    'Choose accessories that complement your bathroom&#039;s lighting. If you have warm-toned lighting, accessories in similar tones may create a cohesive atmosphere.',
+    'Choose accessories that complement your bathroom`s lighting. If you have warm-toned lighting, accessories in similar tones may create a cohesive atmosphere.',
   ],
   more: [
     'Incorporate plants or artificial greenery to bring a natural element to your bathroom. Plants can thrive in the humid environment, and they add freshness and visual appeal.',
