@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/154.e4bce852.chunk.js","mappings":"2JAIA,UAJe,WACX,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,UAChB,C","sources":["pages/Dining.jsx"],"sourcesContent":["const Dining = () => {\n    return <div>Dining</div>;\n};\n\nexport default Dining;\n"],"names":["_jsx","children"],"sourceRoot":""}
