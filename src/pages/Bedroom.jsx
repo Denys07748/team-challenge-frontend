@@ -12,7 +12,7 @@ const text = {
   more: [
     'Choose a dresser that accommodates your clothing storage needs. A mix of drawers and shelves provides versatility, and the dresser should complement the overall bedroom design.',
     'Prioritize functionality when selecting bedroom furniture. Consider features like built-in USB ports, hidden storage, or adjustable components for added convenience.',
-    'Incorporate mirrors strategically to add depth and enhance the bedroom&#039;s visual appeal. A full-length mirror or mirrored furniture can create a sense of spaciousness.',
+    'Incorporate mirrors strategically to add depth and enhance the bedroom`s visual appeal. A full-length mirror or mirrored furniture can create a sense of spaciousness.',
     'Maintain a balance in furniture proportions. Avoid overcrowding the room, and ensure that each piece of furniture complements the others in terms of size and scale.',
   ],
 };
