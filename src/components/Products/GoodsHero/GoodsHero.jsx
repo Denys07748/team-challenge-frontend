@@ -7,7 +7,7 @@ export const GoodsHero = ({ title, img }) => {
         <h2 className={s.title}>{title}</h2>
       </div>
       <div className={s.imgBox}>
-        <img className={s.image} src={img} alt="living" />
+        <img className={s.image} src={img} alt={title} />
       </div>
     </section>
   );

@@ -75,7 +75,7 @@ function CustomerRevies() {
                 <img
                   key={person.id}
                   src={person.photo}
-                  alt={`Photo ${person.id}`}
+                  alt={`${person.id}`}
                   className={`${
                     activeUser === person.id
                       ? styles.ellipse
