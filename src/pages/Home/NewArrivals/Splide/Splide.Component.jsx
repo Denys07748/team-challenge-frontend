@@ -1,17 +1,19 @@
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import SwiperCore from "swiper"
-import { useState, useEffect } from "react"
+import SwiperCore from 'swiper';
+import { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { ProductCard } from '../../../../components/Products/ProductCard/ProductCard';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import "./Splide.css"
+import './Splide.css';
 
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 function SplideComponent() {
-  const [slidesPerView, setSlidesPerView] = useState(window.innerWidth > 1279 ? 4 : 2);
+  const [slidesPerView, setSlidesPerView] = useState(
+    window.innerWidth > 1279 ? 4 : 2
+  );
 
   useEffect(() => {
     const handleResize = () => {
@@ -32,16 +34,36 @@ function SplideComponent() {
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
     >
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
-      <SwiperSlide><ProductCard /></SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProductCard />
+      </SwiperSlide>
     </Swiper>
   );
 }
