@@ -1,0 +1,52 @@
+.checkboxGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.checkboxWrapper {
+  display: flex;
+  flex-direction: row;
+  padding-left: 12px;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 117px;
+  height: 42px;
+  position: relative;
+}
+
+.checkboxElement {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  width: 18px;
+  height: 18px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  fill: aqua;
+  /* border: 2px solid red; */
+  border-radius: 2px;
+}
+
+.label {
+  color: var(--text-river-styx, #0c1012);
+  text-align: left;
+  font-family: var(
+    --body-medium-font-family,
+    'HvDTrialBrandonText-Regular',
+    sans-serif
+  );
+  font-size: var(--body-medium-font-size, 16px);
+  line-height: var(--body-medium-line-height, 24px);
+  font-weight: var(--body-medium-font-weight, 400);
+  position: relative;
+}
