@@ -75,7 +75,7 @@ h5,
   padding: 0;
   border: none;
   text-decoration: none;
-  appearance: none;
+  /* appearance: none; */
   background: none;
 
   -webkit-font-smoothing: antialiased;
